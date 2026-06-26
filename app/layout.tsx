@@ -12,7 +12,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const privyAppId = process.env.NEXT_PUBLIC_PRIVY_APP_ID || "";
+  const privyAppId = process.env.NEXT_PUBLIC_PRIVY_APP_ID;
 
   return (
     <html lang="en" className="dark">
