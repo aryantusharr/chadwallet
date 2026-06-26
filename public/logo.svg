@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00FF41;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Head outline -->
+  <path d="M100 20 C55 20, 30 55, 30 90 C30 110, 35 125, 45 135 L40 155 C38 162, 38 170, 45 175 L55 180 C60 182, 65 180, 68 177 L75 168 C82 172, 90 174, 100 174 C110 174, 118 172, 125 168 L132 177 C135 180, 140 182, 145 180 L155 175 C162 170, 162 162, 160 155 L155 135 C165 125, 170 110, 170 90 C170 55, 145 20, 100 20Z" 
+        stroke="url(#logoGrad)" stroke-width="3" fill="none"/>
+  <!-- Hair/Top -->
+  <path d="M45 80 C45 50, 65 28, 100 28 C135 28, 155 50, 155 80" 
+        stroke="url(#logoGrad)" stroke-width="2.5" fill="none"/>
+  <path d="M50 75 C55 55, 70 38, 100 38 C130 38, 145 55, 150 75" 
+        stroke="url(#logoGrad)" stroke-width="2" fill="none"/>
+  <!-- Eyes -->
+  <ellipse cx="78" cy="88" rx="8" ry="6" stroke="url(#logoGrad)" stroke-width="2" fill="none"/>
+  <circle cx="78" cy="88" r="3" fill="url(#logoGrad)"/>
+  <ellipse cx="122" cy="88" rx="8" ry="6" stroke="url(#logoGrad)" stroke-width="2" fill="none"/>
+  <circle cx="122" cy="88" r="3" fill="url(#logoGrad)"/>
+  <!-- Eyebrows -->
+  <path d="M65 78 Q78 72, 90 78" stroke="url(#logoGrad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M110 78 Q122 72, 135 78" stroke="url(#logoGrad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Nose -->
+  <path d="M100 92 L96 108 Q100 112, 104 108 Z" stroke="url(#logoGrad)" stroke-width="1.5" fill="none"/>
+  <!-- Beard -->
+  <path d="M60 120 C60 115, 65 110, 75 112 C80 106, 90 104, 100 104 C110 104, 120 106, 125 112 C135 110, 140 115, 140 120" 
+        stroke="url(#logoGrad)" stroke-width="2" fill="none"/>
+  <path d="M60 120 C60 145, 75 165, 100 168 C125 165, 140 145, 140 120" 
+        stroke="url(#logoGrad)" stroke-width="2.5" fill="none"/>
+  <!-- Beard details -->
+  <path d="M75 125 C80 135, 85 142, 90 148" stroke="url(#logoGrad)" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <path d="M100 120 C100 135, 100 148, 100 160" stroke="url(#logoGrad)" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <path d="M125 125 C120 135, 115 142, 110 148" stroke="url(#logoGrad)" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <!-- Mustache -->
+  <path d="M82 112 C88 118, 94 116, 100 112 C106 116, 112 118, 118 112" 
+        stroke="url(#logoGrad)" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>
