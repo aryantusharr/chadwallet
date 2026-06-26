@@ -4,7 +4,7 @@ A premium Solana trading terminal built with Next.js 14+, featuring real-time to
 
 ## Live Demo
 
-👉 **[chadwallet.app](chadwallet-rouge.vercel.app)**
+👉 **[chadwallet-rouge.vercel.app](chadwallet-rouge.vercel.app)**
 
 ## Features
 
