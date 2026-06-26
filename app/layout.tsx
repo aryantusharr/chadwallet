@@ -7,12 +7,23 @@ import Footer from "@/components/shared/Footer";
 import ErrorBoundary from "@/components/shared/ErrorBoundary";
 import "./globals.css";
 
+const getPrivyAppId = (): string => {
+  const appId = process.env.NEXT_PUBLIC_PRIVY_APP_ID;
+  if (!appId) {
+    throw new Error(
+      "Missing environment variable: NEXT_PUBLIC_PRIVY_APP_ID must be defined in your .env.local file."
+    );
+  }
+  return appId;
+};
+
+const privyAppId = getPrivyAppId();
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const privyAppId = process.env.NEXT_PUBLIC_PRIVY_APP_ID;
 
   return (
     <html lang="en" className="dark">
